@@ -33,7 +33,7 @@ class Application:
         if brand == "BMW 5" or brand == "Volkswagen ID3":
             tax_percentage = 0.02
 
-        payable_tax = tax_percentage * 0
+        payable_tax = tax_percentage *  catalogue_price#0
 
         # print out the vehicle registration information
         print("Registration complete. Vehicle information:")
